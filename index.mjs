@@ -4,8 +4,7 @@ const app = express()
 const PORT = process.env.PORT;
 
 app.get('/', (req, res) => {
-    res.send('Best Of Luck Anas Bhai Allah Kamiyab Kare
-             ')
+    res.send('Best Of Luck Anas Bhai Allah Kamiyab Kare')
 })
 app.get('/food', (req, res) => {
     res.send('Eat Food')
